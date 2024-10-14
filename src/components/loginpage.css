@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(248, 182, 230);
+}
+.Container{
+    width: 50%;
+    height: 70vh;  
+    background-color: antiquewhite;
+    border-radius: 4%;
+    margin: 5rem;
+    margin-left: 21rem;
+    margin-right: 21rem;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    margin-top: -40px;
+}
+@media screen and (max-width: 768px){
+    .Container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 90%;
+        height: 30rem;
+
+    }
+}
+
